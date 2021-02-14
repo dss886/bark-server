@@ -117,6 +117,7 @@ async function send(ctx) {
         aps: {
             sound,
             category,
+            "mutable-content": 1,
             alert: {
                 title, body
             },
